@@ -1,0 +1,14 @@
+/* Utilitys Class */
+
+/* Color */
+@import url(../css/utilidades/cores.css);
+
+/* Fonts */
+@import url(../css/utilidades/tipografia.css);
+
+/* Container */
+@import url(../css/utilidades/componentes.css);
+
+/* Home */
+@import url(../css/global/header.css);
+@import url(../css/global/global.css);
