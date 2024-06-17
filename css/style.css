@@ -12,3 +12,6 @@
 /* Home */
 @import url(../css/global/header.css);
 @import url(../css/global/global.css);
+
+/* Introdução */
+@import url(../css/home/introducao.css);

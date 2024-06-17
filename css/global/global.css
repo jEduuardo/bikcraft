@@ -11,7 +11,14 @@ h4,
 h5,
 p,
 a,
-img {
+img,
+ul,
+li {
   margin: 0px;
   padding: 0px;
+}
+
+ul,
+li {
+  list-style: none;
 }
