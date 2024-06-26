@@ -1,4 +1,3 @@
-
 body,
 h1,
 h2,
@@ -9,7 +8,8 @@ p,
 a,
 img,
 ul,
-li {
+li,
+blockquote {
   margin: 0px;
   padding: 0px;
 }

@@ -48,5 +48,50 @@
   bottom: 1px;
   background-color: var(--cor-p1);
   position: absolute;
+}
 
+@media (max-width: 1000px) {
+  .tecnologia-bg {
+    margin-top: 30px;
+    box-shadow: inset 0 0 0, inset 0 0 0;
+  }
+  .tecnologia-img img {
+    display: none;
+  }
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+  .tecnologia-conteudo {
+    padding: 80px;
+  }
+}
+
+@media (max-width: 700px) {
+  .tecnologia-conteudo ul {
+    display: grid;
+    margin-top: 0;
+  }
+  .tecnologia-conteudo {
+    padding: 40px 0;
+  }
+  .tecnologia-conteudo > p,
+  h3,
+  span {
+    text-align: center;
+  }
+  .tecnologia-conteudo a {
+    justify-self: center;
+  }
+  .tecnologia-conteudo ul li {
+    display: grid;
+    grid-template-columns: 32px 1fr;
+    align-items: center;
+  }
+  .tecnologia-conteudo ul li p {
+    grid-column: 1/-1;
+    margin-left: 20px;
+  }
+  .tecnologia-conteudo ul li h5 {
+    margin-left: 10px;
+  }
 }
