@@ -1,0 +1,30 @@
+.seguro-bg {
+  background-color: var(--cor-11);
+}
+
+.seguro-tt {
+  font: 600 2.25rem/1.33 "Poppins", arial;
+}
+
+.seguro-plano {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 32px 64px;
+  background-color: red;
+  gap: 40px;
+}
+
+.seguro-plano-x {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: blue;
+}
+
+.seguro-plano-x span {
+  text-align: end;
+}
+
+.seguro-plano-x a {
+  grid-column: 1;
+  height: max-content;
+}

@@ -19,6 +19,18 @@
   max-width: max-content;
 }
 
+.botao2 {
+  display: inline-block;
+  font: 600 1.125rem/1.35 "Poppins", arial;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  background: var(--cor-10);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: var(--cor-4);
+  max-width: max-content;
+}
+
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }

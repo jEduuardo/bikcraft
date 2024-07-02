@@ -19,5 +19,8 @@
 @import url(../css/home/parceiros.css);
 @import url(../css/home/depoimento.css);
 
+/* Seguros */
+@import url(../css/seguros/seguro.css);
+
 /* Bicicletas */
 @import url(../css/bicicletas/bicicletas.css);
